@@ -70,6 +70,7 @@ require([
   // Create FeatureLayer for tram line 
   var tramLayer = new FeatureLayer({
     url: "https://services2.arcgis.com/bB9Y1bGKerz1PTl5/arcgis/rest/services/Tram_Lines_SmoothLine/FeatureServer",
+    title: "Tram Line", 
     popupTemplate: tramTemplate
   });
   
